@@ -1,0 +1,15 @@
+Source: xlrd
+Maintainer: John Machin <sjmachin@lexicon.net>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7), python-support (>= 0.8.4)
+Standards-Version: 3.8.4
+XS-Python-Version: current
+
+Package: python-xlrd
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: Library for developers to extract data from Microsoft Excel 
+ Extract data from Excel spreadsheets (XLS only, versions 2.0 to 2003) on any platform. Pure Python (2.6 to 2.7). Strong support for Excel dates. Unicode-aware.
